@@ -22,12 +22,12 @@ export default function Index() {
           >Blabla</Link>
           <div className="h-[144px] w-[434px]">
             <img
-              src="/logo-light.png"
+              src="/schedule-app/logo-light.png"
               alt="Remix"
               className="block w-full dark:hidden"
             />
             <img
-              src="/logo-dark.png"
+              src="/schedule-app/logo-dark.png"
               alt="Remix"
               className="hidden w-full dark:block"
             />

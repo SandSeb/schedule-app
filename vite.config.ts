@@ -9,9 +9,11 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: '/schedule-app/',
   plugins: [
     remix({
       ssr: false,
+      basename: '/schedule-app/',
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
